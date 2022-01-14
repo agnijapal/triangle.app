@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle Detective</title>
+    <link rel="stylesheet" href="ui/ui_agnija.css">
+    <link rel="stylesheet" href="ui/ui_agnija_2.css">
+    <link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet'>
+</head>
+
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="assets/vid_Trim.mp4" type="video/mp4">
+    </video>
+
+    <div class="top">
+        <div class="name">
+            <div class="logo">
+                <img src="assets/logo.png" width="100px">
+            </div>
+            <div class="logoname">
+                Code Chemist
+            </div>
+        </div>
+        <div id="heading">
+            TRIANGLE DETECTIVE
+            <img src="assets/applogo2.png" width="100px" align=center>
+        </div>
+    </div>
+    <div id="nav">
+        <div id="left">
+            <button class="nav-button">
+                <a href="index.html">Home</a>
+            </button>
+            <button class="nav-button">
+                Start Calculation
+            </button>
+            <button class="nav-button">
+                <a href="developer.html">Developers</a>
+            </button>
+        </div>
+        <div id="right">
+            <button class="nav-button">
+                <a href="contact" target=footer></a> About
+            </button>
+        </div>
+    </div>
+
+    <header>
+        <div class="name">
+            <div class="top">
+                <div id="des" align=justify>
+                    Triangle Property Calculation App<br>
+                    A triangle has 3 Angles and 3 Sides. You have to tell any three data from the 3 Angles and 3 Side
+                    lengths. This app will tell you the another 3 data by calculation.<br>
+                    The Picture Right Side will help you to enter the data in the Following box
+                </div>
+                <div id="image">
+                    <img src="assets/triangle.jpg" width="200px">
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <div class="data">
+        <div class="side1">
+            <div>Enter the length of sides</div>
+            <div class="length">Side 1 (a)</div><input type="number" id="s1" class="side">
+            <div class="length">Side 2 (b)</div><input type="number" id="s2" class="side">
+            <div class="length">Side 3 (c)</div><input type="number" id="s3" class="side">
+        </div>
+        <div class="angle1">
+            <div class="text">Enter the degree of angle</div>
+            <div class="deree">Angle 1 (A) </div><input type="number" id="a1" class="angle"><br>
+            <div class="deree">Angle 2 (B) </div><input type="number" id="a2" class="angle"><br>
+            <div class="deree">Angle 3 (C) </div><input type="number" id="a3" class="angle"><br>
+        </div>
+
+    </div>
+    <div id="outer">
+        <div><button id="inner" onclick="calculate()">CALCULATE</button></div>
+        <div><button id="reset" onclick="reset()">Reset All Values</button></div>
+    </div>
+    <script src="js/computation.js"></script>
+    <footer align=center id="foot">
+        <div class="footer-container">
+            <div class="developer" align=left>
+                <a href="developer.html">
+                    <h3>Developer</h3>
+                </a>
+                <a href="developer.html">
+                    <b>Agnija Pal</b>
+                    <ul>
+                        <li>User Interface Design</li>
+                        <li>Web Hosting and Maintainance</li>
+                    </ul>
+                </a>
+                <a href="developer.html">
+                    <b>Priyam Saha</b>
+                    <ul>
+                        <li>Algorithm Developing</li>
+                        <li>Mathematical Formula in Java Script</li>
+                    </ul>
+                </a>    
+            </div>
+            <div align=left>
+                <h3 id="contact">Contact Us</h3>
+                <a id="social" href="https://www.instagram.com/accounts/login/?"> <img src="assets/ig.png" align=center
+                        class="mini-logo"> Instagram</a><br>
+                <a id="social" href="https://mail.google.com/mail/u/0/#inbox"><img align=center src="assets/gmail.png"
+                        class="mini-logo"> Our GMail</a><br>
+                <a id="social" href="https://www.facebook.com/"><img align=center src="assets/fb.png" class="mini-logo">
+                    Facebook</a><br>
+                <a id="social" href="https://discord.com/channels/@me"><img align=center src="assets/dc.png"
+                        class="mini-logo"> Discord</a><br>
+                <a id="social" href="https://discord.com/channels/@me"><img align=center src="assets/gh.png"
+                        class="mini-logo"> Git Hub</a><br>
+            </div>
+            <div class="more" align=left>
+                <h3>More From Us</h3>
+                <a href="https://agnijapal.github.io/coronavaccine/">Corona Vaccine (pure html info site)</a>
+
+            </div>
+            <div id="about" align=right>
+                <H3>Triangle Detective</H3>
+                <ul style="list-style-type:none;" align=right>
+                    <li>App for Mathematics</li>
+                    <li>Copyright Code Chemist Group</li>
+                    <li>Our Groups &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </li>
+                    <li>Code Structor - Software Development</li>
+                    <li>Code Spider - Web Development&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

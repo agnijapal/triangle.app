@@ -1,0 +1,150 @@
+.data {
+    display: flex;
+    width: auto;
+}
+
+input {
+    height: 40px;
+    width: 250px;
+    border: 0;
+    padding: 0;
+    padding-left: 5px;
+    margin: 0;
+    border-radius: 5px;
+
+}
+
+.angle1 {
+    /* margin-right: 100px; */
+    height: auto;
+    font-family: "ABeeZee";
+    background-color: rgb(255, 0, 0);
+    padding: 10px;
+    color: white;
+    font-size: 30px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.angle1 input {
+    background-color: rgb(255, 154, 22);
+}
+
+.side1 input {
+    background-color: skyblue;
+}
+
+.side1 {
+    border-radius: 5px;
+    height: auto;
+    margin: auto;
+    font-family: "ABeeZee";
+    /* margin-left: 100px; */
+    background-color: rgb(0, 46, 199);
+    padding: 10px;
+    color: white;
+    font-size: 30px;
+}
+
+.top {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+#des{
+    width: 900px;
+}
+#label {
+    font-family: "ABeeZee";
+    align-self: center;
+    margin: 5px;
+    padding: 10px;
+    font-weight: 900;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#heading {
+    font-family: "ABeeZee";
+    font-weight: 900;
+    font-size: 50px;
+    padding: 5px;
+}
+
+.name {
+    display: flex;
+}
+
+.logoname {
+    font-family: "ABeeZee";
+}
+
+#nav {
+    background-color: rgb(153, 153, 153);
+    display: flex;
+    justify-content: space-between;
+    /* border-radius: 5px; */
+    margin-bottom: 8px;
+    /* flex-direction: row; */
+    /* padding: 5px; */
+}
+
+#left {
+    display: flex;
+}
+
+#right {
+    align-content: right;
+}
+
+.nav-button {
+    font-family: "ABeeZee";
+    background-color: rgb(153, 153, 153);
+    transition-delay: 0.1s;
+    padding: 10px;
+    pointer-events: all;
+    border: 0px;
+    font-weight: 900;
+    font-size: 20px;
+    transition-delay: 0.1s;
+}
+.nav-button a:link{
+    color: black;
+    text-decoration: none;
+}
+.nav-button a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+.nav-button:hover {
+    background-color: rgb(255, 255, 255);
+    border: white 1px solid;
+    padding: 10px;
+}
+
+.btn {
+    background-color: #ddd;
+    border: white 1px solid;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+
+}
+#social{
+    /* border: white 2px solid; */
+    padding: 18px;
+    font-size:12px;
+}
+.mini-logo {
+    height: 20px;
+    padding:2px;
+}
