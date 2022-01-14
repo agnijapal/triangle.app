@@ -1,0 +1,154 @@
+header {
+    background-color: #00d9ff;;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+}
+
+#heading {
+
+    font-size: 40px;
+    font-weight: 900;
+}
+
+#des {
+    font-size: 20px;
+}
+
+#image {
+    padding: 10px;
+}
+
+.data {
+    /* border: black 5px solid; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+footer {
+    /* border:red 5px solid; */
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(56, 56, 56);
+    color: white;
+    bottom: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    border-radius: 5px;
+    /* Height of the footer */
+    margin-top: 10px;
+}
+
+.footer-container {
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 12px;
+
+}
+
+footer a:link {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+footer a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: rgb(0, 234, 255);
+    background-color: transparent;
+}
+
+button {
+    height: 40px;
+}
+
+#inner {
+    background-color: white;
+    padding: 5px;
+    color: rgb(11, 167, 0);
+    margin: 8px;
+    border: 2px solid;
+    border-color: #00a529;
+    box-shadow: 5px 5px 5px #00a529;
+    font-weight: 700;
+    width: 200px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#inner:hover {
+    background-color: #00a529;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+#reset {
+    background-color: white;
+    padding: 5px;
+    color: rgb(255, 0, 0);
+    margin: 8px;
+    border: 2px solid;
+    border-color: rgb(255, 0, 0);
+    box-shadow: 5px 5px 5px rgb(255, 0, 0);
+    font-weight: 700;
+    font-size: 15px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+#reset:hover {
+    background-color: #ff0000;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+#result {
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 5px red solid; */
+    font-style: normal;
+    background-color: burlywood;
+    padding: auto;
+    border-radius: 5px;
+    width: 300px;
+    padding: 20px;
+}
+
+#outer {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    background-color: #ffb300;
+    border-radius: 5px;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
