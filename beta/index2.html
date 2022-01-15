@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle Geometry</title>
+    <link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet'>
+    <link href='ui-videobg.css' rel='stylesheet'>
+    <link href='ui-heading.css' rel='stylesheet'>
+    <link href='ui-navigation bar.css' rel='stylesheet'>
+    <link href='ui-description.css' rel='stylesheet'>
+    <link href='ui-input.css' rel='stylesheet'>
+    <link href='ui-output.css' rel='stylesheet'>
+    <link href='ui-buttons.css' rel='stylesheet'>
+    <link href='ui-footer.css' rel='stylesheet'>
+</head>
+
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="/assets/vid_Trim.mp4" type="video/mp4">
+    </video>
+
+    <div id="heading">
+        heading (contains app name and app logo) 
+    </div>
+
+    <div id="navigation-bar">
+        navigation bar contains some buttons
+    </div>
+
+    <div id="description">
+        description of the app or intro of the app
+    </div>
+
+    <div id="input">
+        <div class="side1">
+            <div>Enter the length of sides</div>
+            <div class="length">Side 1 (a)</div><input type="number" id="s1" class="side">
+            <div class="length">Side 2 (b)</div><input type="number" id="s2" class="side">
+            <div class="length">Side 3 (c)</div><input type="number" id="s3" class="side">
+        </div>
+    </div>
+    
+    <div id="buttons">
+        <div><button id="inner" onclick="calculate()">CALCULATE</button></div>
+        <div><button id="reset" onclick="reset()">Reset All Values</button></div>
+    </div>
+    
+    <div id="output">
+        <div class="angle1">
+            <div class="text">Enter the degree of angle</div>
+            <div class="deree">Angle 1 (A) </div><input type="number" id="a1" class="angle">
+            <div class="deree">Angle 2 (B) </div><input type="number" id="a2" class="angle">
+            <div class="deree">Angle 3 (C) </div><input type="number" id="a3" class="angle">
+        </div>
+    </div>
+
+    
+    <div id="footer">
+        footer
+    </div>
+    <script src="/js/computation.js"></script>
+
+</body>
+
+</html>
